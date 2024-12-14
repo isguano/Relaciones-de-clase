@@ -1,16 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+
 
 package com.mycompany.pyt.principal.fauna;
 
-/**
- *
- * @author hp
- */
+import java.util.Scanner;
+
+
 public class PytPrincipalFauna {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner (System.in);
+       
         
         Mamifero mamifero = new Mamifero ("tigre",10,"Liso");
         mamifero.comer();
